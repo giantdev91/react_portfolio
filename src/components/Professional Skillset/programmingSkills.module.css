@@ -1,0 +1,56 @@
+.mainCard{
+    text-align: center;
+    margin-top: 2rem;
+}
+.mainCard h1{
+    font-size: 2.5rem;
+}
+.skillSetCard{
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    text-align: center;
+    width: 90%;
+}
+.skillItem{
+    width: 15rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid;
+    border-radius: 10px;
+}
+.name{
+    display: none;
+}
+.skillItem svg{
+    /* background-color: aquamarine; */
+    height: 6rem;
+    width: 6rem;
+    /* color: inherit; */
+}
+.skillItem svg:hover{
+    cursor: pointer;
+}
+@media (max-width:768px) {
+    .skillSetCard{
+        margin: 2rem auto;
+        gap: 1rem;
+        width: 95%;
+        /* background-color: aqua; */
+    }
+    .skillItem{
+        width: 9rem;
+        height: 7rem;
+    }
+    .skillItem svg{
+        /* background-color: aquamarine; */
+        height: 4rem;
+        width: 4rem;
+        /* color: inherit; */
+    }
+}
