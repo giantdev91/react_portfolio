@@ -65,7 +65,7 @@ const Navbar = () => {
     if (systemTheme === "dark") {
       handleModeChange();
     }
-  }, [systemTheme]);
+  });
 
   useEffect(() => {
     handleDropDown();
