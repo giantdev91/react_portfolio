@@ -1,7 +1,7 @@
 {
   "name": "mine-portofolio-website",
   "version": "0.1.0",
-  "homepage": "https://mine-portofolio-website.netlify.app/home",
+  "homepage": "https://github.com/seniordev0312/react-portofolio",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
