@@ -1,7 +1,7 @@
 {
   "name": "mine-portofolio-website",
   "version": "0.1.0",
-  "homepage": "https://github.com/seniordev0312/react-portofolio",
+  "homepage": "./public",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
