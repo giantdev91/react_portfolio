@@ -1,52 +1,54 @@
-const DUMMY_PROJECTS=[
-    {
-        projectTitle:'PortFolio Template',
-        description: 'This project is a React app to generate a creative professional website based on Data provided. The website uses no backend and is free to fork and use.',
-        sourceLink:'https://github.com/killer-abhi/Portfolio.git',
-        lastUpdated:'Jan 20 2023'
-    },
-    {
-        projectTitle:'Expense Tracker',
-        description: 'A React project to get a track of weekly expenses. It also creates a graphical data to help monitor the expenses on daily basis',
-        sourceLink:'https://github.com/killer-abhi/expense-tracker.git',
-        lastUpdated:'Dec 30 2022'
-    },
-    {
-        projectTitle:'Realtime Chat Site',
-        description: 'It is a Realtime Chat Website built using Socket.io and Express with NodeJs as a backend and MongoDB as a database. It updates the chat messages in realtime with Typing notification of other users',
-        sourceLink:'https://github.com/killer-abhi/realtime-chat-site.git',
-        lastUpdated:'Dec 10 2022'
-    },
-    {
-        projectTitle:'Food Order Website',
-        description: 'It is a React based website demonstrating how food order works with Cart updates and storing it in Firebase Database.',
-        sourceLink:'https://github.com/killer-abhi/food-order-react.git',
-        lastUpdated:'Jan 25 2023'
-    },
-    {
-        projectTitle:'Space Tourism Website',
-        description: 'It is a solution to challenge of FrontEnd Mentors. It is a React website to depict facts about our Solar System. ',
-        sourceLink:'https://github.com/killer-abhi/space-tour.git',
-        lastUpdated:'Oct 16 2022'
-    },
-    {
-        projectTitle:'Password Generator',
-        description: 'A website where you can generate strong Passwords to use as Authentication in different websites and apps based on the difficulty level set by you. ',
-        sourceLink:'https://github.com/killer-abhi/password-generator.git',
-        lastUpdated:'Sep 24 2022'
-    },
-    {
-        projectTitle:'QR Code Generator',
-        description: 'A simple website to generate QR Code of any text provided as Input.It fetches an API to provide you the required QR Code.',
-        sourceLink:'https://github.com/killer-abhi/qr-code-generator.git',
-        lastUpdated:'Oct 24 2022'
-    },
-    {
-        projectTitle:'Calculator',
-        description: 'A Calculator to do basic operations. It is a React app with three different themes.',
-        sourceLink:'https://github.com/killer-abhi/calculator.git',
-        lastUpdated:'Sep 26 2022'
-    },
+const DUMMY_PROJECTS = [
+  {
+    projectTitle: "PortFolio Template",
+    description:
+      "This project is a React app to generate a creative professional website based on Data provided. The website uses no backend and is free to fork and use.",
+    sourceLink: "https://github.com/seniordev0312/react-portofolio.git",
+    lastUpdated: "Jan 20 2023",
+  },
+  {
+    projectTitle: "Laravel Media Library",
+    description:
+      "The Pro version of the package offers Blade, Vue and React components to handle uploads to the media library and to administer the content of a medialibrary collection.",
+    sourceLink: "https://github.com/seniordev0312/Laravel-media.git",
+    lastUpdated: "Dec 30 2022",
+  },
+  {
+    projectTitle: "React Form Project",
+    description:
+      "The purpose of this project is to submit the form to the customer",
+    sourceLink: "https://github.com/seniordev0312/react-form.git",
+    lastUpdated: "Dec 10 2022",
+  },
+  {
+    projectTitle: "Angular Forminate",
+    description:
+      "Form.io is a revolutionary combined Form and API platform for Serverless applications. This repository serves as the core Form and API engine for https://form.io. This system allows you to build serverless data management applications using a simple drag-and-drop form builder interface. These forms can then easily be embedded within your Angular.js and React applications using the <formio> HTML element",
+    sourceLink: "https://github.com/seniordev0312/Angular-forminate.git",
+    lastUpdated: "May 12 2023",
+  },
+  {
+    projectTitle: "React Ant5",
+    description:
+      "parknation portal platform by React and Ant5. parknation.portal.org",
+    sourceLink: "https://github.com/seniordev0312/React-ant5.git",
+    lastUpdated: "May 12 2023",
+  },
+  {
+    projectTitle: "Angular Financial Dashboard",
+    description:
+      "Financial dashboard with Angular 14. I worked here for about 6 months",
+    sourceLink:
+      "https://github.com/seniordev0312/Angular-financial-dashboard.git",
+    lastUpdated: "May 12 2023",
+  },
+  {
+    projectTitle: "Vue router",
+    description: "Project that define the vue router setting",
+    sourceLink: "https://github.com/seniordev0312/Vue-router-setting.git",
+    lastUpdated: "May 12 2023",
+  },
 ];
-const ProjectsData={DUMMY_PROJECTS};
+
+const ProjectsData = { DUMMY_PROJECTS };
 export default ProjectsData;

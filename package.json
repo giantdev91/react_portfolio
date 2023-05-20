@@ -1,7 +1,6 @@
 {
   "name": "mine-portofolio-website",
   "version": "0.1.0",
-  "homepage": "./public",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.5",
